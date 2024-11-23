@@ -8,13 +8,15 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Load and split the dataset into features and target.
+1.Predict employee salary using features like experience and education with a decision tree.
 
-2.Initialize and train the Decision Tree Regressor.
+2.Clean the data, handle missing values, and split into training and testing sets.
 
-3.Predict the salary using the test data.
+3.Split data recursively at the best feature to minimize prediction error until stopping criteria are met.
 
-4.Evaluate the model's performance using metrics like MSE and R-squared.
+4.Train the decision tree on the training set to learn decision rules for salary prediction.
+
+5.Use the trained model to predict salaries and evaluate using metrics like Mean Squared Error (MSE).
 
 ## Program:
 
